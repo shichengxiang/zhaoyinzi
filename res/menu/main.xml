@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.customeview.MainActivity" >
+
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="100"
+        android:title="消息"
+        android:icon="@drawable/me_message"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ic"
+        android:orderInCategory="99"
+        android:title="标题"
+        android:actionLayout="@layout/toolbar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/more"
+        android:orderInCategory="98"
+        android:title="消息"
+        android:icon="@drawable/me_message"
+        app:showAsAction="ifRoom"/>
+
+</menu>
